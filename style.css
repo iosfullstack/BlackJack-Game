@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    background: goldenrod;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(./images/istockphoto-146782949-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+#message-info{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    font-style: italic;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button{
+    width: 150px;
+    color: #016f32;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        height: 50%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    #message-info{
+        font-size: 20px;
+    }
+
+    .container{
+        background-image: url(./images/istockphoto-146782949-612x612.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+    
